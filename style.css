@@ -219,36 +219,28 @@ section h2 {
 }
 
 @media (max-width: 640px) {
+  /* Tailles de police identiques à la version 1024 : seuls les espacements et le portrait sont réduits */
   .page { padding: 32px 12px 56px; }
   .cv-header { margin-bottom: 32px; }
   .identity { padding: 8px 0; }
   .portrait { width: 72px; height: 72px; }
-  .identity h1 { font-size: 22px; }
-  .identity p { margin-top: 7px; font-size: 16px; }
-  .contact-bar { padding: 4px; font-size: 10px; }
-  .contact-bar > * { gap: 4px; padding: 4px; }
-  .contact-bar img { width: 14px; height: 14px; }
+  .identity p { margin-top: 7px; }
+  .contact-bar { padding: 4px; }
+  .contact-bar > * { gap: 8px; padding: 4px 8px; }
   .primary-column,
   .secondary-column { gap: 32px; }
-  section h2 { margin-bottom: 20px; font-size: 20px; }
-  .experience-list { gap: 24px; }
-  .experience { gap: 8px; font-size: 12px; }
-  .item-heading { gap: 5px; }
-  .experience h3,
-  .education-list h3 { font-size: 14px; }
-  .meta { gap: 5px; font-size: 10px; }
-  .result { gap: 8px; }
-  .result > span { font-size: 14px; }
-  .education-list { gap: 14px; }
-  .education-list article { gap: 5px; }
-  .skills-list { gap: 14px; }
-  .skill-group { gap: 5px; }
-  .skill-group h3 { font-size: 10px; }
-  .tags { gap: 3px; }
-  .tags span { padding: 3px 8px; font-size: 9px; }
+  section h2 { margin-bottom: 20px; }
+  .experience-list { gap: 28px; }
+  .experience { gap: 10px; }
+  .item-heading { gap: 6px; }
+  .meta { gap: 6px; }
+  .result { gap: 10px; }
+  .education-list { gap: 16px; }
+  .education-list article { gap: 6px; }
+  .skills-list { gap: 16px; }
+  .skill-group { gap: 6px; }
   .simple-list,
-  .interests { gap: 8px; font-size: 11px; }
-  .interests img { width: 16px; height: 16px; }
+  .interests { gap: 10px; }
 }
 
 @media print {
