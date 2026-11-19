@@ -12,103 +12,85 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="resume">
-    <div class="resume-inner">
+  <main class="page">
+    <div class="cv">
 
-      <header class="profile">
-        <img class="portrait" src="assets/1e0f7.png" alt="Portrait illustré de Marie Le Roy">
+      <header class="cv-header">
         <div class="identity">
-          <h1>Marie Le Roy</h1>
-          <p>UX designer web et mobile</p>
+          <img class="portrait" src="assets/1e0f7.png" alt="Portrait illustré de Marie Le Roy">
+          <div>
+            <h1>Marie Le Roy</h1>
+            <p>UX designer web et mobile</p>
+          </div>
         </div>
+        <address class="contact-bar">
+          <a href="mailto:mlr.marieleroy@gmail.com">
+            <img src="assets/75d75.svg" alt="">
+            mlr.marieleroy@gmail.com
+          </a>
+          <!-- Numéro à compléter : remplacez les XX (et transformez en lien tel: si besoin) -->
+          <span>
+            <img src="assets/b6bbd.svg" alt="">
+            06 30 01 XX XX
+          </span>
+          <span>
+            <img src="assets/09b91.svg" alt="">
+            Nantes
+          </span>
+        </address>
       </header>
 
-      <address class="contact-bar">
-        <a href="mailto:mlr.marieleroy@gmail.com">
-          <img class="icon" src="assets/75d75.svg" alt="" aria-hidden="true">
-          <span>mlr.marieleroy@gmail.com</span>
-        </a>
-        <!-- Numéro à compléter : remplacez les XX et ajoutez un lien tel: si vous le souhaitez -->
-        <span class="contact-item">
-          <img class="icon" src="assets/b6bbd.svg" alt="" aria-hidden="true">
-          <span>06 30 01 XX XX</span>
-        </span>
-        <span class="contact-item">
-          <img class="icon" src="assets/09b91.svg" alt="" aria-hidden="true">
-          <span>Nantes</span>
-        </span>
-      </address>
+      <div class="cv-body">
 
-      <div class="content-grid">
+        <div class="primary-column">
 
-        <div class="main-column">
           <section>
-            <header class="section-title">
-              <h2>Expériences</h2>
-              <span class="line-viewport" aria-hidden="true"><img src="assets/218ca.svg" alt=""></span>
-            </header>
-
+            <h2>Expériences</h2>
             <div class="experience-list">
 
               <article class="experience">
-                <div class="experience-heading">
+                <div class="item-heading">
                   <h3>Cheffe de projet UX/UI</h3>
-                  <div class="meta">
+                  <p class="meta">
                     <strong>La Maison Saint-Gobain</strong>
-                    <span aria-hidden="true">•</span>
+                    <b aria-hidden="true">•</b>
                     <span>Avril 2023 - Septembre 2025</span>
-                  </div>
-                </div>
-                <div class="experience-copy">
-                  <p>
-                    Optimisation UX des parcours web sur la plateforme de mise en relation
-                    lamaisonsaintgobain.fr et son site de contenu. Analyse des comportements
-                    utilisateurs, AB/testing, conception des maquettes, rédaction des users stories,
-                    suivi du développement et recette.
                   </p>
                 </div>
+                <p>Optimisation UX des parcours web sur la plateforme de mise en relation lamaisonsaintgobain.fr et son site de contenu. Analyse des comportements utilisateurs, AB/testing, conception des maquettes, rédaction des users stories, suivi du développement et recette.</p>
                 <div class="result">
-                  <span class="rocket" aria-hidden="true">🚀</span>
+                  <span aria-hidden="true">🚀</span>
                   <p>+38 % de taux de conversion sur le trafic SEO (0,26 % → 0,37 %) via refonte du funnel et des parcours utilisateur.</p>
                 </div>
               </article>
 
               <article class="experience">
-                <div class="experience-heading">
+                <div class="item-heading">
                   <h3>Product owner</h3>
-                  <div class="meta">
+                  <p class="meta">
                     <strong>La Maison Saint-Gobain</strong>
-                    <span aria-hidden="true">•</span>
+                    <b aria-hidden="true">•</b>
                     <span>Septembre 2018 - Mars 2023</span>
-                  </div>
+                  </p>
                 </div>
-                <div class="experience-copy">
-                  <p>
-                    Gestion du backlog et des sprints, priorisations en fonction des KPIs.
-                    Participation à la roadmap produit.
-                  </p>
+                <div class="copy">
+                  <p>Gestion du backlog et des sprints, priorisations en fonction des KPIs. Participation à la roadmap produit.</p>
                   <p>Rédaction des spécificités fonctionnelles et recette.</p>
-                  <p>
-                    Pilotage de la refonte du site de contenus : coordination entre l’agence UX et
-                    l’équipe technique.
-                  </p>
+                  <p>Pilotage de la refonte du site de contenus : coordination entre l’agence UX et l’équipe technique.</p>
                 </div>
               </article>
 
               <article class="experience">
-                <div class="experience-heading">
+                <div class="item-heading">
                   <h3>Responsable communication</h3>
-                  <div class="meta">
+                  <p class="meta">
                     <strong>Mon Maître Carré</strong>
-                    <span aria-hidden="true">•</span>
+                    <b aria-hidden="true">•</b>
                     <span>Septembre 2015 - Août 2018</span>
-                  </div>
-                </div>
-                <div class="experience-copy">
-                  <p>
-                    Développement de la stratégie d’acquisition clients et construction de la
-                    notoriété de la start-up.
                   </p>
+                </div>
+                <div class="copy">
+                  <p>Développement de la stratégie d’acquisition clients et construction de la notoriété de la start-up.</p>
                   <ul>
                     <li>Communication stratégique et opérationnelle : publicité, relations presse, création de supports print &amp; web, événementiel, communication interne.</li>
                     <li>Webmarketing : acquisition digitale, SEA, rédaction SEO.</li>
@@ -117,15 +99,15 @@
               </article>
 
               <article class="experience">
-                <div class="experience-heading">
+                <div class="item-heading">
                   <h3>Responsable communication</h3>
-                  <div class="meta">
+                  <p class="meta">
                     <strong>Mon Maître Carré</strong>
-                    <span aria-hidden="true">•</span>
+                    <b aria-hidden="true">•</b>
                     <span>Avril 2015 - Septembre 2015</span>
-                  </div>
+                  </p>
                 </div>
-                <div class="experience-copy">
+                <div class="copy">
                   <p>Lancement de la communication de la start-up.</p>
                   <ul>
                     <li>Design : créations de supports print et web.</li>
@@ -137,111 +119,96 @@
             </div>
           </section>
 
-          <section class="education">
-            <header class="section-title">
-              <h2>Formations</h2>
-              <span class="line-viewport" aria-hidden="true"><img src="assets/218ca.svg" alt=""></span>
-            </header>
-
-            <div class="study-list">
-              <article class="study">
+          <section>
+            <h2>Formations</h2>
+            <div class="education-list">
+              <article>
                 <h3>Maquette et prototypage avec Figma (perfectionnement)</h3>
-                <div class="meta"><span>Les Gobelins, Paris</span><span aria-hidden="true">•</span><span>2024</span></div>
+                <p class="meta"><span>Les Gobelins, Paris</span><b aria-hidden="true">•</b><span>2024</span></p>
               </article>
-              <article class="study">
+              <article>
                 <h3>UX mobile et tactile</h3>
-                <div class="meta"><span>Campus pro, Paris</span><span aria-hidden="true">•</span><span>2023</span></div>
+                <p class="meta"><span>Campus pro, Paris</span><b aria-hidden="true">•</b><span>2023</span></p>
               </article>
-              <article class="study">
+              <article>
                 <h3>Stratégie UX</h3>
-                <div class="meta"><span>Le Laptop, Paris</span><span aria-hidden="true">•</span><span>2022</span></div>
+                <p class="meta"><span>Le Laptop, Paris</span><b aria-hidden="true">•</b><span>2022</span></p>
               </article>
-              <article class="study">
+              <article>
                 <h3>Master Communication Globale des Entreprises et des Marques</h3>
-                <div class="meta"><span>ISCOM, Lyon</span><span aria-hidden="true">•</span><span>2015</span></div>
+                <p class="meta"><span>ISCOM, Lyon</span><b aria-hidden="true">•</b><span>2015</span></p>
               </article>
-              <article class="study">
+              <article>
                 <h3>DUT Information - Communication spécialité Publicité</h3>
-                <div class="meta"><span>IUT de Caen</span><span aria-hidden="true">•</span><span>2013</span></div>
+                <p class="meta"><span>IUT de Caen</span><b aria-hidden="true">•</b><span>2013</span></p>
               </article>
-              <article class="study">
+              <article>
                 <h3>Baccalauréat scientifique mention assez bien</h3>
-                <div class="meta"><span>Lycée Saint-Louis, Lorient</span><span aria-hidden="true">•</span><span>2011</span></div>
+                <p class="meta"><span>Lycée Saint-Louis, Lorient</span><b aria-hidden="true">•</b><span>2011</span></p>
               </article>
             </div>
           </section>
+
         </div>
 
-        <aside class="sidebar">
+        <aside class="secondary-column">
+
           <section>
-            <header class="section-title">
-              <h2>Compétences</h2>
-              <span class="line-viewport" aria-hidden="true"><img src="assets/4c177.svg" alt=""></span>
-            </header>
-            <div class="skill-groups">
+            <h2>Compétences</h2>
+            <div class="skills-list">
               <div class="skill-group">
                 <h3>UX/UI Design &amp; Prototypage</h3>
-                <div class="tags"><span class="tag">Figma</span><span class="tag">Illustrator</span></div>
+                <div class="tags"><span>Figma</span><span>Illustrator</span></div>
               </div>
               <div class="skill-group">
                 <h3>Data &amp; Optimisation de l’expérience</h3>
-                <div class="tags">
-                  <span class="tag">AB Tasty</span><span class="tag">Google Analytics</span><span class="tag">Looker Studio</span>
-                  <span class="tag">Testapic</span><span class="tag">Hotjar</span><span class="tag">Excel</span>
-                </div>
+                <div class="tags"><span>AB Tasty</span><span>Google Analytics</span><span>Looker Studio</span><span>Testapic</span><span>Hotjar</span><span>Excel</span></div>
               </div>
               <div class="skill-group">
                 <h3>Gestion de projet &amp; Collaboration</h3>
-                <div class="tags">
-                  <span class="tag">JIRA</span><span class="tag">Confluence</span><span class="tag">Trello</span>
-                  <span class="tag">Notion</span><span class="tag">FigJam</span><span class="tag">Whimsical</span>
-                </div>
+                <div class="tags"><span>JIRA</span><span>Confluence</span><span>Trello</span><span>Notion</span><span>FigJam</span><span>Whimsical</span></div>
               </div>
               <div class="skill-group">
                 <h3>Méthodologies</h3>
-                <div class="tags"><span class="tag">Méthode Agile</span><span class="tag">Kanban</span></div>
+                <div class="tags"><span>Méthode Agile</span><span>Kanban</span></div>
               </div>
               <div class="skill-group">
                 <h3>CMS &amp; Gestion de contenu</h3>
-                <div class="tags"><span class="tag">Drupal</span></div>
+                <div class="tags"><span>Drupal</span></div>
               </div>
               <div class="skill-group">
                 <h3>CRM &amp; Marketing Automation</h3>
-                <div class="tags"><span class="tag">Salesforce</span><span class="tag">Mailchimp</span></div>
+                <div class="tags"><span>Salesforce</span><span>Mailchimp</span></div>
               </div>
               <div class="skill-group">
                 <h3>SEO technique &amp; Optimisation web</h3>
-                <div class="tags"><span class="tag">Web Core Vitals</span></div>
+                <div class="tags"><span>Web Core Vitals</span></div>
               </div>
             </div>
           </section>
 
           <section>
-            <header class="section-title">
-              <h2>Langues</h2>
-              <span class="line-viewport" aria-hidden="true"><img src="assets/4c177.svg" alt=""></span>
-            </header>
-            <div class="language-list">
-              <p><strong>Français</strong> • Natif</p>
-              <p><strong>Anglais</strong> • Avancé</p>
-              <p><strong>Portugais</strong> • Avancé</p>
+            <h2>Langues</h2>
+            <div class="simple-list">
+              <p><strong>Français</strong> <span>•</span> Natif</p>
+              <p><strong>Anglais</strong> <span>•</span> Avancé</p>
+              <p><strong>Portugais</strong> <span>•</span> Avancé</p>
             </div>
           </section>
 
           <section>
-            <header class="section-title">
-              <h2>Centres d’intérêts</h2>
-              <span class="line-viewport" aria-hidden="true"><img src="assets/4c177.svg" alt=""></span>
-            </header>
-            <div class="interest-list">
-              <p><img class="icon" src="assets/e41f2.svg" alt="" aria-hidden="true"><strong>Arts créatifs</strong></p>
-              <p><img class="icon" src="assets/41c80.svg" alt="" aria-hidden="true"><strong>Randonnée et bivouac</strong></p>
+            <h2>Centres d’intérêts</h2>
+            <div class="interests">
+              <p><img src="assets/e41f2.svg" alt=""><strong>Arts créatifs</strong></p>
+              <p><img src="assets/41c80.svg" alt=""><strong>Randonnée et bivouac</strong></p>
             </div>
           </section>
-        </aside>
 
+        </aside>
       </div>
     </div>
   </main>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
